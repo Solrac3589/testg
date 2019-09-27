@@ -9,7 +9,7 @@ https://github.com/RobotWebTools/roslibjs
 <h3>ros3djs:</h3>
 https://github.com/RobotWebTools/ros3djs
 
-you have to run the following nodes also 8im not sure if they are needed, but just in case!:
+you have to run the following nodes also (im not sure if they are needed, but just in case!):
 
 <ul>
   <li>roslaunch rosbridge_server rosbridge_websocket.launch</li>
