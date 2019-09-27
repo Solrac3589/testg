@@ -12,13 +12,13 @@
 <script type="text/javascript">
 
 
-const mesh = new ROS3D.MeshResource({
-      resource: '3dmodel.stl',
-      path: 'ws://localhost:8888/testg/meshes',
-      warnings: true
-  });
+  const mesh = new ROS3D.MeshResource({
+        resource: '3dmodel.stl',
+        path: 'http://localhost/testg/meshes',
+        warnings: true
+    });
 
-
+  console.log("Loaded mesh: ", mesh);
 </script>
 
 
