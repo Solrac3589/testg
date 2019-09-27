@@ -1,0 +1,28 @@
+<script src="js/roslibjs/build/roslib.min.js"></script>
+<script src="js/ros3djs/build/ros3d.min.js"></script>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+
+const mesh = new ROS3D.MeshResource({
+      resource: '3dmodel.stl',
+      path: 'http://localhost/testg/meshes',
+      warnings: true
+  });
+
+console.log("Loaded mesh: ", mesh);
+
+</script>
+
+
+
+</body>
+</html>
